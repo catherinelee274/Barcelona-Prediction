@@ -22,7 +22,7 @@ $ source venv/bin/activate
 
 `$ flask run`
 
-If it gives an error that says `Failed to find Flask application or factory in module "app". Use "FLASK_APP=app:name to specify one.`, run `FLASK_APP=app:app`
+If it gives an error that says `Failed to find Flask application or factory in module "app". Use "FLASK_APP=app:name to specify one.`, change to the `app` directory with `cd app`
 
 # Dependencies 
 - Flask 
