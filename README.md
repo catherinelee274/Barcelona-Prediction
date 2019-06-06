@@ -48,7 +48,12 @@ If it gives an error that says `Failed to find Flask application or factory in m
 
 # Paths
 `/notebooks  ` all jupyter notebooks 
+
 `/notebooks/data` datasets
+
 `/app/app.py` main app
+
 `/app/templates` html templates
+
+`/app/templates/home/index2.html` front page d3js code
 
