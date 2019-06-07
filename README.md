@@ -1,7 +1,28 @@
 # barcelona_predict
 Predicting accidents or air pollution with Barcelona dataset
 
-full.csv - combined weather,precipitation features (needs to add air quality feature later) 
+full.csv - combined weather,precipitation features 
+
+# Commands to deploy
+*requires python3, pip3, virtualenv 
+
+If you don't have virtualenv
+```
+pip install virtualenv
+
+```
+
+```
+$ virtualenv venv
+$ source venv/bin/activate
+```
+ 
+`$ pip install -r requirements.txt` to download dependencies (listed below). requirements.txt is in the repo. Make sure you are in the directory)
+
+`$ flask run`
+
+If it gives an error that says `Failed to find Flask application or factory in module "app". Use "FLASK_APP=app:name to specify one.`, change to the `app` directory with `cd app`  and `flask run` again
+
 # Edit Flask web app
 
 Edit controllers/ to update how to receive and reply to requests.
@@ -10,21 +31,8 @@ Edit templates/ to update the layout and styling.
 
 Edit models/ to update how the data is stored.
 
-# Commands to deploy
 
-```
-$ virtualenv venv
-$ source venv/bin/activate
-```
- 
-`$ pip install -r requirements.txt` to download dependencies
-`npm install d3-timeseries --save` 
-
-`$ flask run`
-
-If it gives an error that says `Failed to find Flask application or factory in module "app". Use "FLASK_APP=app:name to specify one.`, change to the `app` directory with `cd app`
-
-# Dependencies 
+# Dependencies (Deployment)
 - Flask 
 - Flask-SQLAlchemy
 - alembic
@@ -46,14 +54,27 @@ If it gives an error that says `Failed to find Flask application or factory in m
 - urllib3
 - Werkzeug
 
+# Dependencies (Jupyter Notebook)
+- skldf
+- dslfjksd
+
+
 # Paths
 `/notebooks  ` all jupyter notebooks 
 
-`/notebooks/data` datasets
+`/notebooks/data` path used for *DATASETS* used by jupyter nb so put all data here
+
+`notebooks/main.ipynb` - main nb with modeling
+`noteboooks/barcelona_eda.ipynb` - eda nb 
+
+`/notebooks/index2.html` front page d3js code
 
 `/app/app.py` main app
 
 `/app/templates` html templates
 
 `/app/templates/home/index2.html` front page d3js code
+
+`//index2.html` front page d3js code
+
 
