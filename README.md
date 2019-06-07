@@ -6,11 +6,7 @@ full.csv - combined weather,precipitation features
 # Commands to deploy
 *requires python3, pip3, virtualenv 
 
-If you don't have virtualenv
-```
-pip install virtualenv
-
-```
+If you don't have virtualenv `pip install virtualenv`
 
 ```
 $ virtualenv venv
@@ -65,6 +61,7 @@ Edit models/ to update how the data is stored.
 `/notebooks/data` path used for *DATASETS* used by jupyter nb so put all data here
 
 `notebooks/main.ipynb` - main nb with modeling
+
 `noteboooks/barcelona_eda.ipynb` - eda nb 
 
 `/notebooks/index2.html` front page d3js code
@@ -75,6 +72,5 @@ Edit models/ to update how the data is stored.
 
 `/app/templates/home/index2.html` front page d3js code
 
-`//index2.html` front page d3js code
 
 
