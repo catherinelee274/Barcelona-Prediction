@@ -51,9 +51,7 @@ Edit models/ to update how the data is stored.
 - Werkzeug
 
 # Dependencies (Jupyter Notebook)
-- skldf
-- dslfjksd
-
+- TODO
 
 # Paths
 `/notebooks  ` all jupyter notebooks 
