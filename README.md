@@ -54,7 +54,7 @@ Edit models/ to update how the data is stored.
 - TODO
 
 # Paths
-`/notebooks  ` all jupyter notebooks 
+`/notebooks` all jupyter notebooks 
 
 `/notebooks/data` path used for *DATASETS* used by jupyter nb so put all data here
 
